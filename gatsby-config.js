@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-emotion`,
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-typography`,
     {
       resolve: `gatsby-plugin-root-import`,
       options: {
