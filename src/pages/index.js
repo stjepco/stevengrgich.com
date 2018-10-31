@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "react-emotion"
-import DefaultLayout from "src/components/layouts/defaultLayout"
+import DefaultLayout from "src/layouts/defaultLayout"
 
 const Title = styled.h1`
   background-color: #fff
