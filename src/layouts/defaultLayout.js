@@ -2,14 +2,12 @@
 import React from "react"
 import styled from "react-emotion"
 
-const Container = styled.div`
-  background-color: #fff;
-  max-width: 670px;
-  margin: 0 auto;
-`
+import "src/styles/main.styl"
+import Navbar from "src/components/navbar"
 
 export default ({ children }) => (
-  <Container>
+  <div className="container">
+    <Navbar />
     {children}
-  </Container>
+  </div>
 )

@@ -1,0 +1,35 @@
+ @import "_variables"
+
+body {
+  background-color $test
+}
+
+{$headings}
+  background-color: green
+  
+.container {
+  max-width: 670px;
+  margin: 0 auto;
+}
+
+.navbar {
+  // background-color #ccc
+  .links {
+    list-style none
+    padding 0
+    margin 0
+    li {
+      display inline-block
+      margin-right 1rem
+      margin-bottom 0
+    }
+    a {
+      text-decoration none
+      display inline-block
+      &.active {
+        text-decoration underline
+      }
+    }
+  }
+}
+

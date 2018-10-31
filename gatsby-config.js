@@ -1,10 +1,17 @@
 // gatsby-config.js
 const path = require(`path`)
+const rupture = require("rupture")
 
 module.exports = {
   plugins: [
     `gatsby-plugin-emotion`,
     `gatsby-plugin-postcss`,
+    {
+      resolve: "gatsby-plugin-stylus",
+      options: {
+        use: [rupture()]
+      }
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
