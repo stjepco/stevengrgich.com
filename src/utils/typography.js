@@ -22,6 +22,12 @@ const typography = new Typography({
       ...adjustFontSizeTo('26px'),
       marginTop: "4rem",
       marginBottom: 0
+    },
+    ['@media (max-width:480px)']: {
+      html: {
+        // ...adjustFontSizeTo('24px')
+        fontSize: "112.5%"
+      }
     }
   })
 })
