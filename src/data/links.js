@@ -1,5 +1,6 @@
 const Links = {
   page: {
+    home: "/"
     about: "/about/",
     now: "/now/"
   },

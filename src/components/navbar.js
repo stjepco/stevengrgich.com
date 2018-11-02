@@ -1,6 +1,7 @@
 // Navbar
 import React from "react"
 import { Link as GatsbyLink } from "gatsby"
+import links from "src/data/links"
 
 const Link = ({ to, text }) => (
   <li>
@@ -15,9 +16,9 @@ const Link = ({ to, text }) => (
 const Navbar = () => (
   <nav className="navbar">
     <ul className="links">
-      <Link to="/" text="Home" />
-      <Link to="/now/" text="Now" />
-      <Link to="/about/" text="About" />
+      <Link to={links.pages.home} text="Home" />
+      <Link to={links.pages.now} text="Now" />
+      <Link to={links.pages.about} text="About" />
     </ul>
   </nav>
 )
