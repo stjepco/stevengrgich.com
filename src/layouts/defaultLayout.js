@@ -1,6 +1,6 @@
 // Default Layout
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Navbar from "src/components/navbar.js"
 import Footer from "src/components/footer.js"
