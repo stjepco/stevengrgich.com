@@ -1,3 +1,6 @@
+// Inspired by:
+// https://github.com/daneden/daneden.me/blob/master/src/components/designSystem/Link.js
+
 import React from "react"
 import { Link as GatsbyLink } from "gatsby"
 
