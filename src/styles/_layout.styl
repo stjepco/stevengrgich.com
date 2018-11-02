@@ -1,8 +1,15 @@
 // Layout
 
+.body
+  overflow hidden
+  
 .container
   max-width: 700px
   margin: 0 auto
+  margin-left 20vw
+  +below(900px)
+    margin-left auto
+    margin-right auto
   padding 0 1rem
 
 .navbar
@@ -29,3 +36,32 @@
         // cursor default
         // &:hover
         //   color #999
+
+.svg-desk
+  // background-color #ccc
+  margin 3rem auto -0.5rem
+  +above(1100px)
+    margin-left -2.5rem
+    margin-right -3rem
+  img
+    // background-color #cac
+    margin-bottom 0
+
+.writing
+  position relative
+  img
+    width 180px
+    height 104px
+    position absolute
+    left -200px
+    top 0
+    +below(1100px)
+      display none
+
+footer
+  opacity 0.5
+  font-size 0.8rem
+  margin 1rem 0 3rem
+  p
+    // margin-bottom 0
+    // color #aaa

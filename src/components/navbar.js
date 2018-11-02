@@ -1,4 +1,4 @@
-// Default Layout
+// Navbar
 import React from "react"
 import { Link as GatsbyLink } from "gatsby"
 
