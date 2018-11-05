@@ -3,14 +3,10 @@ import React from "react"
 import { Link as GatsbyLink } from "gatsby"
 import links from "src/data/links"
 
-console.log(links)
-
 const Link = ({ to, text }) => (
   <li>
-    <GatsbyLink 
-      to={to} 
-      activeClassName="active">
-        {text}
+    <GatsbyLink to={to} activeClassName="active">
+      {text}
     </GatsbyLink>
   </li>
 )
