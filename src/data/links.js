@@ -1,6 +1,6 @@
-const Links = {
+const links = {
   page: {
-    home: "/"
+    home: "/",
     about: "/about/",
     now: "/now/"
   },
@@ -12,4 +12,4 @@ const Links = {
 
 }
 
-export default Links
+export default links
