@@ -23,6 +23,7 @@ const typography = new Typography({
       marginTop: "4rem",
       marginBottom: 0
     },
+    // eslint-disable-next-line
     ['@media (max-width:480px)']: {
       html: {
         // ...adjustFontSizeTo('24px')
